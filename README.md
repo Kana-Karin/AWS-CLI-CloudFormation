@@ -19,3 +19,4 @@ Default output format [None]: 出力フォーマットを入力
 <img width="619" alt="スクリーンショット 2023-11-10 21 18 04" src="https://github.com/Kana-Karin/AWS-CLI-CloudFormation/assets/84316229/5106d922-9ada-44e2-91b0-df02b221d268">
 
 3. **CloudFormationテンプレートの準備**
+   今回は.yamlでスタックを作成します。
