@@ -1,6 +1,6 @@
 # AWS-CLI-CloudFormation
 AWS CLIを利用してCloudFormationスタック作成を行います。<br>
-今回は無料枠でVPC作成、リソースを使用せず作成していきます。
+## 今回は無料枠でVPC作成、リソースを使用せずに作成していきます。
 
 1. **AWS CLIのセットアップ**
    1. AWS公式サイトからCLIをインストール
@@ -29,4 +29,16 @@ Default output format [None]: 出力フォーマットを入力
 4. **実際にコンソール画面に行って確認**<br>
    <img width="400" alt="スクリーンショット 2023-11-11 16 41 59" src="https://github.com/Kana-Karin/AWS-CLI-CloudFormation/assets/84316229/7cfee2b9-23ae-4158-a08d-1079224204e7"><br>
    無事、スタックが作成されていることが確認できました。
+
+## Cloudformationでのアーキテクチャ図
+![vpc-template](https://github.com/Kana-Karin/AWS-CLI-CloudFormation/assets/84316229/03e47854-41f1-41da-a40b-6f71adf906d8)
+
+## スタックをCLIから作成する上で参照させていただいたサイト
+[Qiita - AWS CloudFormation の初歩 備忘録](https://qiita.com/namoshika/items/528d8a50f399b998b14b)
+[AWS公式 - 組み込み関数リファレンス](https://docs.aws.amazon.com/ja_jp/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference.html)
+[AWS公式 - テンプレートの基礎に関する説明](https://qiita.com/namoshika/items/528d8a50f399b998b14b)
+
+## つまづいた部分、セキュリティベストプラクティスについて
+- 今回はベストセキュリティプラクティスに沿ったスタックが作成できなかったこと
+- スタックの値の読み込みに時間がかかったこと
 
