@@ -22,7 +22,8 @@ Default output format [None]: 出力フォーマットを入力
    今回は、**my-stack**, **mytemplate.yaml**でスタックを作成します。<br>
    ``file://``には.yamlファイルがあるディレクトリを指定します。<br>
    ``aws cloudformation create-stack --stack-name my-stack --template-body file://./aws-cloudformation/mytemplate.yaml``<br>
-<img width="４34" alt="スクリーンショット 2023-11-11 16 25 22" src="https://github.com/Kana-Karin/AWS-CLI-CloudFormation/assets/84316229/e107e16b-4611-4767-a2f5-0b217648636c"><br>
+   
+<img width="234" alt="スクリーンショット 2023-11-11 16 25 22" src="https://github.com/Kana-Karin/AWS-CLI-CloudFormation/assets/84316229/e107e16b-4611-4767-a2f5-0b217648636c"><br>
 スタックがcreateされました。
 
 4. **実際にコンソール画面に行って確認**<br>
